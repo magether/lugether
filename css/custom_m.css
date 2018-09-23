@@ -57,6 +57,9 @@ header>#header-area {
 header.nav-up>#header-area>#header-search-link, header.nav-up>#header-area>#header-bar-link {
 	display:none;
 }
+header>#header-area>#header-bar-link {
+	padding: 2px 16px;
+}
 header.nav-up>#header-area {
 	z-index: 3003;
 	width: 100%;
