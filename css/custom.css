@@ -71,7 +71,7 @@ header .row>div:nth-child(1)>a img{
 }
 
 header #header-bar>.row{
-	border-top:5px solid #63919d;
+	border-top:5px solid #3f909e;
 }
 
 header #header-bar #header-top-notice strong.notice-badge{
@@ -222,7 +222,7 @@ header #right-search-form>#right-search-btn{
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span:before{
     position:absolute;
     content:'';
-    background:url(https://magether.github.io/lugether/images/birth3.png);
+    background:url('../images/birth3.png');
     background-size:19px 19px;
     width:19px;
     height:19px;
@@ -240,4 +240,14 @@ header #right-search-form>#right-search-btn{
 
 #main #main-content>div.frame {
 	border: 2px dotted #4391ad;
+}
+#board-info #viewers-area .fa-user:before {
+	content: url('../images/birth3.png');
+    zoom: 0.35;
+}
+#board-info h1>a {
+	color: #ff5b70 !important;
+}
+#board-info h1>.badge-success:before {
+	content: '세계 ';
 }
