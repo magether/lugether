@@ -108,6 +108,7 @@ header #header-bar #header-top-notice strong.notice-badge{
 
 #article-list #article-list-category{
 	border-top:3px solid #63919d;
+	background:#d1eef8;
 }
 
 #article-list #article-list-category>a{
@@ -118,10 +119,6 @@ header #header-bar #header-top-notice strong.notice-badge{
 	padding: 5px;
 	background:#ffffff;
 	transition: all 500ms;
-}
-
-#article-list #article-list-category{
-	background:#d1eef8;
 }
 
 #article-list #article-list-category>a.active, #article-list #article-list-category>a:hover{
@@ -167,6 +164,15 @@ header #header-bar #header-top-notice strong.notice-badge{
 	border-color:#63919d;
 }
 
+.pagination>li>a,.pagination>li>span{
+	color:#63919d;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+	color: #335963;
+	background: #d2e5ea;
+}
+
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span{
 	color:#36575f;
 }
@@ -184,10 +190,6 @@ header #right-search-form>input[type=text]{
 }
 
 header #right-search-form>#right-search-btn{
-	color:#63919d;
-}
-
-.pagination>li>a,.pagination>li>span{
 	color:#63919d;
 }
 
@@ -212,11 +214,6 @@ header #right-search-form>#right-search-btn{
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged,#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged{
 	color:#517a84;
 	white-space:nowrap;
-}
-
-.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
-	color: #335963;
-	background: #d2e5ea;
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span:before{
