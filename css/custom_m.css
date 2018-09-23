@@ -13,6 +13,10 @@
   src: url('//cdn.jsdelivr.net/npm/typeface-nanum-square-round@1.0.1/NanumSquareRoundEB.woff2') format('woff2'),
   	   url('//cdn.jsdelivr.net/npm/typeface-nanum-square-round@1.0.1/NanumSquareRoundEB.woff') format('woff');
 }
+.frame ins:nth-child(2) {
+	margin-left: -20px;
+	overflow-y: hidden;
+}
 body {
 	font-family:'NanumSquareRound',sans-serif;
 }
@@ -286,7 +290,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	line-height: 14px;
 }
 #article-list #article-list-category{
-	border-top:3px solid #63919d;
+	border-top:3px solid #93c0cc;
 	background:#d1eef8;
 }
 #article-list #article-list-category>a{
@@ -361,9 +365,6 @@ span.a-badge {
 #article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
 	color: #36575f;
 }
-#article-list>.article-list-row>.item>.list-time {
-	width: 45px;
-}
 .btn-default {
 	background-color: none;
 }
@@ -393,7 +394,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 	z-index: 9101;
 	top:-30px;
 	transition: top 800ms ease-in-out;
-	padding-top: 2px;
+	padding-top: 5px;
 }
 nav#nav.hide > #nav-upper #userDropdown #notification-badge {
 	position: fixed;
