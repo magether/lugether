@@ -393,14 +393,17 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 	z-index: 9101;
 	top:-30px;
 	transition: top 800ms ease-in-out;
+	padding-top: 2px;
 }
 nav#nav.hide > #nav-upper #userDropdown #notification-badge {
 	position: fixed;
-	top: 5px;
+	top: 4px;
 	left: 4%;
 	right: auto !important;
 	margin-left: -5px;
 	background: #e17880;
+    font-weight: 700;
+    padding-top: 5px;
 }
 #nav.hide .dropdown .dropdown-menu-right {
 	position: fixed;
