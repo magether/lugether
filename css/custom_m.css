@@ -225,6 +225,9 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 #favoriteDropdownMenu>li>a, #latestDropdownMenu>li>a {
 	padding: 2px 3px 2px 10px;
 }
+#playgroundDropdownMenu>li>a {
+	padding: 6px 10px;
+}
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
 	color: #333333 !important;
 	background: #6cbed2 !important;
