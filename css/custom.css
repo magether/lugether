@@ -170,13 +170,6 @@ header #right-search-form>#right-search-btn{
 #article-list>.article-list-row>.item>.list-title>.list-writer {
     border-left:0px;
 }
-#board-info #viewers-area .fa-user:before {
-	content: url('../images/birth3.png');
-    zoom: 0.35;
-}
-#board-info h1>.badge-success:before {
-	content: '세계 ';
-}
 header #header-bar #header-menu-left {
 	white-space: nowrap;
 }
