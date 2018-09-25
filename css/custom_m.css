@@ -297,12 +297,6 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	font-weight: 700;
 	vertical-align: 2px;
 }
-#board-info #viewers-area #viewers::before {
-	content: '해쪽단  ';
-}
-#board-info #viewers-area #viewers::after {
-	content: '명';
-}
 #article-info {
 	border-bottom: 3px solid #63919c;
 }
