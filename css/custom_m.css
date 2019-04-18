@@ -13,11 +13,11 @@
   src: url('//cdn.jsdelivr.net/npm/typeface-nanum-square-round@1.0.1/NanumSquareRoundEB.woff2') format('woff2'),
   	   url('//cdn.jsdelivr.net/npm/typeface-nanum-square-round@1.0.1/NanumSquareRoundEB.woff') format('woff');
 }
-.frame div:nth-child(1) {
-    line-height: 0;
+.frame>div:nth-child(1) {
+	line-height: 0;
 }
-.frame ins:nth-child(1) {
-    height: auto !important;
+.frame>div:nth-child(1) ins {
+	height: auto !important;
 }
 .frame ins:nth-child(2) {
 	margin-left: -20px;
