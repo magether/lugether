@@ -58,6 +58,7 @@ header #header-bar #header-top-notice strong.notice-badge{
 #board-info{
 	height:68px;
 }
+/*
 #board-info > img{
 	float:left!important;
 	margin-right:10px;
@@ -67,12 +68,47 @@ header #header-bar #header-top-notice strong.notice-badge{
 #board-info .img-rounded{
 	border-radius:12px;
 }
+*/
 #board-info h1>a{
 	font-weight:700;
 }
 #board-info #viewers-area .fa-user:before{
 	color:rgba(10,59,84,0);
 	content:url('https://static-cdn.jtvnw.net/badges/v1/77253f53-74a8-43c4-b54b-c482b014619e/1');
+}
+#board-info h1>a::before {
+	content: '';
+	background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/3af28c7f-4269-4763-a656-b68368d9d71a-profile_image-300x300.jpeg) center no-repeat;
+	background-size: 60px;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 27px;
+	top: 10px;
+	margin-top: 0;
+	z-index: 100;
+	border: 1px solid #e896a0;
+	border-radius: 15px;
+	transition: all 300ms ease;
+}
+#board-info h1>a:hover:before {
+	border: 2px solid #e896a0;
+	border-radius: 45px;
+}
+#board-info h1>a {
+	transition: all 300ms ease;
+}
+#board-info h1>a:hover {
+	color: #e896a0;
+}
+#board-info #board-info-profile-img {
+	display: none;
+}
+#board-info h1 {
+    padding-left:65px;
+}
+#board-info #board-info-bottom {
+    padding-left:65px;
 }
 #article-list{
 	line-height:14px;

@@ -272,6 +272,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	padding: 12px 15px;
 }
 #board-info>h1>#board-info-profile-img {
+	/*
 	position: absolute;
 	width: 67px;
 	height: 67px;
@@ -280,9 +281,24 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	border-radius: 50%;
 	background-color: #ffe3e7;
     border: 2px solid #e896a0;
+    */
+    display: none;
+}
+#board-info h1>a::before {
+	content: '';
+	position: absolute;
+	background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/3af28c7f-4269-4763-a656-b68368d9d71a-profile_image-300x300.jpeg) center no-repeat;
+	background-size: 70px;
+	left: 0;
+	width: 70px;
+	height: 70px;
+	margin: -2px 0 0 10px;
+	z-index: 100;
+	border: 2px solid #e896a0;
+	border-radius: 50%;
 }
 #board-info>h1>a {
-	margin-left: 70px;
+	margin-left: 80px;
 }
 #board-info>h1>a.badge-live {
 	margin-left: 0;
